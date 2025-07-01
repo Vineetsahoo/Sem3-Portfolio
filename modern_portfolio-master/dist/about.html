@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <title>About Me</title>
+</head>
+
+<body>
+  <!-- Page Loader -->
+  <div class="page-loader">
+    <div class="loader-content">
+      <div class="loader-circle"></div>
+      <div class="loader-circle"></div>
+      <div class="loader-circle"></div>
+    </div>
+  </div>
+
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item current">
+          <a href="about.html" class="nav-link">
+            About Me
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="work.html" class="nav-link">
+            Achievements & Courses
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">
+            How To Reach Me
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Add a scroll progress indicator at the top of the page -->
+  <div class="scroll-progress-container">
+    <div class="scroll-progress-bar"></div>
+  </div>
+
+  <main id="about">
+    <h1 class="lg-heading animate-fade-in">
+      About
+      <span class="text-secondary">Me</span>
+    </h1>
+    <h2 class="sm-heading animate-fade-in-delay">
+      Let me tell you a few things...
+    </h2>
+    <div class="about-info">
+      <img src="img/portrait.jpg" alt="John Doe" class="bio-image animate-stagger">
+
+      <div class="bio animate-stagger enhanced-bio">
+        <h3 class="text-secondary bio-title">
+          <span class="bio-title-icon"><i class="fas fa-user-circle"></i></span>
+          BIO
+        </h3>
+        <div class="bio-content">
+          <p>I'm <span class="highlight-text">Vineet Sahoo</span>, deeply passionate about blending
+            <span class="accent-text typing-effect" data-text="creativity">creativity</span> with
+            <span class="accent-text typing-effect" data-text="technology">technology</span> in web development and design.
+          </p>
+          <p class="bio-paragraph">I continually seek to enhance my skills through engaging in
+            <span class="highlight-text">challenging projects</span> that push the boundaries of innovation.</p>
+          <p class="bio-paragraph">I aim to contribute to
+            <span class="highlight-text">impactful projects</span> where my
+            <span class="accent-text">creative thinking</span> and
+            <span class="accent-text">development expertise</span> can add value and drive progress.</p>
+        </div>
+        <div class="bio-decoration">
+          <div class="code-line"><span class="code-comment">// Passionate developer</span></div>
+          <div class="code-line"><span class="code-keyword">const</span> <span class="code-variable">skills</span> = [<span class="code-string">'Web'</span>, <span class="code-string">'Design'</span>, <span class="code-string">'Innovation'</span>];</div>
+          <div class="code-line"><span class="code-keyword">function</span> <span class="code-function">solveProblems</span>() { <span class="code-keyword">return</span> <span class="code-string">'Creative Solutions'</span>; }</div>
+        </div>
+      </div>
+
+      <div class="job job-1 animate-stagger">
+        <div class="job-icon">
+          <i class="fas fa-graduation-cap"></i>
+        </div>
+        <h2>Education</h2>
+        <h4>B. tech. Computer Science</h4>
+        <p>I am pursuing Computer Science Engineering with a specialization in Software Engineering at SRM Institute of Science & Technology. SRM has provided me with a robust technical foundation, enhancing my skills in web development and design. The innovative and collaborative environment fuels my passion for tackling complex projects and advancing creative technology solutions.</p>
+      </div>
+
+      <div class="job job-2 animate-stagger">
+        <div class="job-icon">
+          <i class="fas fa-code"></i>
+        </div>
+        <h2>Skills</h2>
+        <h4>Web Designer & UI / UX Developer</h4>
+        <p>
+          As a Web Designer and UI/UX Developer, I need strong skills in design tools such as Adobe Creative Suite, Figma, and Sketch, paired with proficiency in HTML/CSS and JavaScript for interactive elements. I focus on UX research, wireframing, and crafting visually appealing UI, ensuring responsive and user-friendly web experiences. Additonally I have learn C & C++, Java, Python, Linux.</p>
+      </div>
+
+      <div class="job job-3 animate-stagger">
+        <div class="job-icon">
+          <i class="fas fa-briefcase"></i>
+        </div>
+        <h2>Experiences</h2>
+        <h4>Team Coordinator & Front Developer</h4>
+        <p>
+          As a Developer in the Flipkart Grid 6.0 and Smart India Hackathons, I led my team to create innovative, user-focused solutions. I managed task distribution and workflows while developing responsive, interactive interfaces. These experiences enhanced my leadership, coding, and problem-solving skills, demonstrating my ability to deliver impactful projects in high-pressure, competitive settings.</p>
+      </div>
+    </div>
+
+    <!-- Modify the resume buttons section to have two buttons side by side -->
+    <div class="resume-download animate-fade-in-delay">
+      <div class="resume-buttons">
+        <a href="#" class="btn-resume view-resume-btn" id="viewResumeBtn">
+          <i class="fas fa-eye"></i>
+          <span>View Resume</span>
+        </a>
+        <a href="Vineet_Sahoo_Resume.pdf" class="btn-resume" download>
+          <i class="fas fa-file-download"></i>
+          <span>Download Resume</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Add Resume Modal/Popup -->
+    <div id="resumeModal" class="resume-modal">
+      <div class="resume-modal-content">
+        <span class="resume-modal-close">&times;</span>
+        <div class="resume-iframe-container">
+          <iframe id="resumeIframe" src="Vineet_Sahoo_Resume.pdf" frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Replace the back-to-top button with a floating action menu -->
+  <div class="floating-menu">
+    <div class="floating-btn main-btn">
+      <i class="fas fa-plus"></i>
+    </div>
+    <div class="menu-options">
+      <div class="floating-btn" title="Back to top" id="back-to-top-btn">
+        <i class="fas fa-arrow-up"></i>
+      </div>
+      <div class="floating-btn" title="View Resume" id="viewResumeFloatingBtn">
+        <i class="fas fa-eye"></i>
+      </div>
+      <div class="floating-btn" title="Download Resume">
+        <a href="Vineet_Sahoo_Resume.pdf" download><i class="fas fa-file-download"></i></a>
+      </div>
+      <div class="floating-btn" title="Contact Me">
+        <a href="contact.html"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <footer id="main-footer">
+    Copyright &copy; 2025
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+  
+  <!-- Replace back to top script with floating menu script -->
+  <script>
+    // Floating menu functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const mainBtn = document.querySelector('.main-btn');
+      const floatingMenu = document.querySelector('.floating-menu');
+      const backToTopBtn = document.getElementById('back-to-top-btn');
+      
+      // Toggle menu open/close
+      mainBtn.addEventListener('click', function() {
+        floatingMenu.classList.toggle('open');
+      });
+      
+      // Back to top functionality
+      backToTopBtn.addEventListener('click', function() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+      
+      // Scroll progress bar
+      const scrollProgress = document.querySelector('.scroll-progress-bar');
+      window.addEventListener('scroll', function() {
+        // Calculate scroll position
+        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const scrollPercentage = (scrollTop / scrollHeight) * 100;
+        
+        // Update progress bar width
+        scrollProgress.style.width = scrollPercentage + '%';
+        
+        // Show/hide floating menu based on scroll position
+        if (scrollTop > 300) {
+          floatingMenu.classList.add('visible');
+        } else {
+          floatingMenu.classList.remove('visible');
+          floatingMenu.classList.remove('open'); // Close menu when back at top
+        }
+      });
+    });
+  </script>
+
+  <!-- Add Resume Modal Script at the end of the file, before the closing body tag -->
+  <script>
+      // Existing floating menu functionality
+      // ...existing code...
+      
+      // Resume Modal Functionality
+      const modal = document.getElementById("resumeModal");
+      const viewResumeBtn = document.getElementById("viewResumeBtn");
+      const viewResumeFloatingBtn = document.getElementById("viewResumeFloatingBtn");
+      const closeBtn = document.querySelector(".resume-modal-close");
+      
+      // Open modal when View Resume button is clicked
+      viewResumeBtn.addEventListener("click", function(e) {
+        e.preventDefault();
+        modal.classList.add("show");
+        document.body.style.overflow = "hidden"; // Prevent scrolling when modal is open
+      });
+      
+      // Open modal when floating View Resume button is clicked
+      viewResumeFloatingBtn.addEventListener("click", function() {
+        modal.classList.add("show");
+        document.body.style.overflow = "hidden";
+      });
+      
+      // Close modal when X is clicked
+      closeBtn.addEventListener("click", function() {
+        modal.classList.remove("show");
+        document.body.style.overflow = "auto"; // Restore scrolling
+      });
+      
+      // Close modal when clicking outside of content
+      window.addEventListener("click", function(event) {
+        if (event.target === modal) {
+          modal.classList.remove("show");
+          document.body.style.overflow = "auto";
+        }
+      });
+      
+      // Close modal with Escape key
+      document.addEventListener("keydown", function(event) {
+        if (event.key === "Escape" && modal.classList.contains("show")) {
+          modal.classList.remove("show");
+          document.body.style.overflow = "auto";
+        }
+      });
+    </script>
+</body>
+
+</html>
